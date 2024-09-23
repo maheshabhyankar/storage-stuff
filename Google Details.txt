@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 CLIENT ID: 934930072330-snn2dsljsjq65ecn7dc21nu7onk5sqbt.apps.googleusercontent.com
 
 Client Secret: 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
 
+=======
+CLIENT ID: 934930072330-snn2dsljsjq65ecn7dc21nu7onk5sqbt.apps.googleusercontent.com
+
+Client Secret: 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
+
+>>>>>>> e4ac5167efb8872e3205614131d824b739e8bfdb
 API : AIzaSyDLaHjkcrJ3CUuNeNIgW-ODf1OoErbWj10
