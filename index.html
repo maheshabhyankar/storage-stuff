@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Inventory</title>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        h1 { text-align: center; }
+        form { display: flex; flex-direction: column; gap: 10px; }
+        input, select { padding: 5px; }
+        button { padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Home Inventory</h1>
+    <button id="signInButton" style="display: none;">Sign In</button>
+    <form id="inventoryForm" style="display: none;">
+        <input type="text" id="item" placeholder="Item name" required>
+        <select id="location" required>
+            <option value="">Select a location</option>
+            <option value="Living Room">Living Room</option>
+            <option value="Bedroom">Bedroom</option>
+            <option value="Kitchen">Kitchen</option>
+            <option value="Garage">Garage</option>
+            <option value="Attic">Attic</option>
+            <option value="Basement">Basement</option>
+        </select>
+        <input type="date" id="date" required>
+        <button type="submit">Add Item</button>
+    </form>
+    <div id="content"></div>
+    <script src="app.js"></script>
+</body>
+</html>
